@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Prova Pratica - Desenvolvimento Web</title>
+  </head>
+  <body>
+    <h1>Prova Pratica - Desenvolvimento Web</h1>
+    <p>Aluno: <span id="nome-aluno">[Felipe Ferreira]</span></p>
+    <hr />
+
+    <!-- Questao 1 html semantico -->
+
+    <article class="artigo-blog">
+      <header>
+        <h2>Meu primeiro artigo</h2>
+        <p>Este e um artigo sobre desenvolvimento Web</p>
+
+        <ul>
+          <li>Header</li>
+          <p>
+            E usado para representar o cabeçalho de um documento ou seão declado
+            no html
+          </p>
+          <li>Section</li>
+          <p>
+            Representa uma seção dentro de um documento e geralmente contém um
+            título
+          </p>
+          <li>Article</li>
+          <p>
+            Utiliza esse elemento quando precisa declarar um conteudo que nao
+            precisa de outro para fazer sentindo
+          </p>
+        </ul>
+      </header>
+      <footer>Publicado em:11/02/26</footer>
+    </article>
+
+    <!-- Questao 2 css basico -->
+    <div class="caixa-estilizada">
+      <h3>Caixa estilizada com css</h3>
+    </div>
+
+    <!-- Questao 3 flexbox -->
+    <div class="container-flex">
+      <button class="inicio">inicio</button>
+      <button class="sobre">sobre</button>
+      <button class="contato">contato</button>
+    </div>
+
+    <!-- Questao 4 formulario -->
+     <form id="formulariocontato">
+               <p><label for="name">Nome</label></p>
+                <input type="text" id="nome" placeholder="Nome" required minlength="3">
+                
+                <p><label for="email">Email</label></p>
+                <input type="email" placeholder="email@gmail.com" name="email" id="email" autocomplete="email">
+
+                   <button type="submit" id="enviar" value="Enviar">Enviar</button>
+     </form>
+
+    </hr>
+    <script src="script.js"></script>
+  </body>
+</html>
